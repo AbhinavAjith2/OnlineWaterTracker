@@ -1,0 +1,164 @@
+p {
+  font-family: 'monospace';
+  font-size: 1cm;
+  color: white;
+  text-align: center;
+  /*text-shadow: 2px 2px 5px white;*/
+}
+body{background-color: #256D85; margin : 0 ;}
+.top{ background-color: #DFF6F0; background-size: cover;}
+.toptext{ margin : 0; color: black;}
+
+img {
+  display: flex;
+  border-radius: 25%;
+  height: 400px;
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+}
+
+html {
+  /*background-image: linear-gradient(to bottom right, blue, steelblue, steelblue, blue, steelblue, steelblue, blue, steelblue, steelblue, blue);*/
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2cm;
+  color: white;
+  padding: 2cm 0cm;
+  /*text-shadow: 2px 2px 5px white;*/
+  font-family: copperplate;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 1cm;
+  color: white;
+  padding: 2cm 0cm;
+  /*text-shadow: 2px 2px 5px white;*/
+  font-family: copperplalte;
+}
+
+ul {
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00005C;
+  color: white;
+  display:flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  ul {
+    flex-direction:column;
+  }
+}
+
+@media (max-width: 1250px) {
+  ul {
+    flex-direction:column;
+  }
+  li a{
+    padding:14px 4.25cm;
+  }
+}
+
+
+li {
+  float: left;
+  border-right: 2px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 3.825cm;
+  text-decoration: none;
+  font-size: 1.5em; 
+}
+
+li a:hover {
+  background-color: #153462;
+  color: white;
+
+}
+
+button {
+  font-size: 0.80cm;
+  font-family: 'papyrus';
+  height: 300px;
+  width: 300px;
+  border-radius: 25%;
+  background-image: linear-gradient(to top right, #182747, grey);
+  transition: width 0.5s, height 0.5s;
+  color: white;
+  align: center;
+  display: inline;
+  text-align: center;
+}
+
+.button2min {
+  margin-right: 0.5cm;
+  margin-left: 0.25cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+.button30min {
+  margin-right: 0.5cm;
+  margin-left: 0.25cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+.button1hour {
+  margin-right: 0.5cm;
+  margin-left: 0.25cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+.button2hour {
+  margin-right: 0.5cm;
+  margin-left: 0.25cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+.button3hour {
+  margin-right: 0.5cm;
+  margin-left: 0.25cm;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+
+button:hover {
+  height: 325px;
+  width: 325px;
+  cursor: pointer;
+}
+
+.endtxt {
+  text-align: center;
+  padding: 0px 2cm;
+  font-size: 1cm;
+  color: black;
+  margin: 0 0 0 0;
+}
+.end{
+  color : black;
+  background-color: white;
+}
+.buttons{
+  padding-left: 5%;
+}
